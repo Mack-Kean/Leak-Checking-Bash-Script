@@ -1,6 +1,6 @@
 #!/bin/bash
-FILE=$1
+file=$1
 
-valgrind --leak-check=full --show-leak-kinds=all ./$FILE
+valgrind --leak-check=full --show-leak-kinds=all ./$file
 
 
